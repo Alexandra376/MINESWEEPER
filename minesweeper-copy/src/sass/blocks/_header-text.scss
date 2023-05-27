@@ -1,0 +1,43 @@
+h3 {
+  margin-right: 12px;
+  color: #000000;
+}
+
+h3.checked {
+  color: black;
+}
+
+.header-text {
+  display: flex;
+}
+
+.header-text :hover {
+  cursor: pointer;
+  color: rgb(158, 158, 158);
+}
+
+#sound {
+  position: relative;
+}
+
+#sound.checked::before {
+  width: 1px;
+  height: 25px;
+  display: inline-block;
+  background: red;
+  position: absolute;
+  content: '';
+  left: 50%;
+  transform: rotate(50deg);
+}
+
+#sound.checked::after {
+  width: 1px;
+  height: 25px;
+  display: inline-block;
+  background: red;
+  position: absolute;
+  content: '';
+  left: 50%;
+  transform: rotate(312deg);
+}

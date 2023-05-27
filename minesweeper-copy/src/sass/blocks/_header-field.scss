@@ -1,0 +1,24 @@
+.header-field {
+  display: grid;
+  grid-template-columns: repeat(10, 27px);
+  border-color: pink;
+}
+
+button {
+  height: 27px;
+  font-size: 19px;
+}
+
+.header-field.easy {
+  grid-template-columns: repeat(10, 27px);
+}
+
+.header-field.medium {
+  display: grid;
+  grid-template-columns: repeat(15, 27px);
+}
+
+.header-field.hard {
+  display: grid;
+  grid-template-columns: repeat(25, 27px);
+}

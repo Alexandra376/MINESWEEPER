@@ -1,0 +1,15 @@
+.header-newgame:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+
+.header-newgame.checked {
+  background-color: #8e1a1a;
+  border-color: #504d4d;
+  border-color: #960707;
+  color: black;
+}
+
+.header-newgame {
+  border-color: pink;
+}

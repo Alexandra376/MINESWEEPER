@@ -1,0 +1,34 @@
+.header-cellbox {
+  border-width: 8px;
+  border-style: ridge;
+  height: 254px;
+  background-color: #e9e9e9;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  height: 266px;
+  border-color: pink;
+}
+
+.header-cellbox :hover {
+  cursor: pointer;
+}
+
+.header-cellbox.checked {
+  border-color: black;
+  background-color: black;
+}
+
+.header-cellbox.easy {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 266px;
+}
+
+.header-cellbox.medium {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 418px;
+}
+
+.header-cellbox.hard {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 675px;
+}

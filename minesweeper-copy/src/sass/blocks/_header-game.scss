@@ -1,0 +1,46 @@
+.header-game {
+  width: 282px;
+  height: 331.5px;
+  border-color: pink;
+  border-width: 6px;
+  border-style: ridge;
+}
+
+.header-game.checked {
+  background-color: black;
+  border-color: black;
+}
+
+.header-game.easy {
+  width: 282px;
+  height: 331.5px;
+}
+
+.header-game.medium {
+  width: 418px;
+  height: 482.5px;
+}
+
+.header-game.hard {
+  width: 689.5px;
+  height: 740px;
+}
+
+.header-win,
+.header-lose {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  z-index: 9;
+  font-weight: 900;
+  display: none;
+}
+
+.header-win.show,
+.header-lose.show {
+  display: block;
+}
